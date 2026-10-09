@@ -1,4 +1,4 @@
-const phrases = ['Hyperscale data paths', 'Resilient distributed state', 'Predictable p99 latency', 'Safe in-service updates', 'Recovery by design'];
+const phrases = ['APIs that evolve safely', 'Compatibility as a feature', 'Developer-first platform tools', 'Reliable shared middleware', 'Adoption through great docs'];
 const rotatingText = document.querySelector('#rotatingText');
 let phraseIndex = 0;
 setInterval(() => {
@@ -32,7 +32,7 @@ projectSearch?.addEventListener('input', () => {
   noResults.hidden = visible !== 0;
 });
 
-// The ambient network topology animates continuously behind the infrastructure system diagram.
+// The ambient network topology animates continuously behind the platform ecosystem diagram.
 const canvas = document.querySelector('#topology');
 const ctx = canvas?.getContext('2d');
 let width = 0, height = 0, points = [], frame = 0;
